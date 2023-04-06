@@ -343,6 +343,12 @@ PODS:
   - React-jsinspector (0.72.0-rc.1)
   - React-logger (0.72.0-rc.1):
     - glog
+  - react-native-bignumber (0.1.9):
+    - OpenSSL-Universal (~> 1.1.180)
+    - React
+    - React-callinvoker
+    - React-Core
+    - ReactCommon/turbomodule/core
   - react-native-leveldb (3.1.0):
     - React-Core
   - react-native-quick-base64 (2.0.5):
@@ -494,6 +500,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-bignumber (from `../node_modules/react-native-bignumber`)
   - react-native-leveldb (from `../node_modules/react-native-leveldb`)
   - react-native-quick-base64 (from `../node_modules/react-native-quick-base64`)
   - react-native-quick-crypto (from `../node_modules/react-native-quick-crypto`)
@@ -572,6 +579,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-bignumber:
+    :path: "../node_modules/react-native-bignumber"
   react-native-leveldb:
     :path: "../node_modules/react-native-leveldb"
   react-native-quick-base64:
@@ -644,6 +653,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 414fbc6d50f1f89be2600b723a27c6070076d650
   React-jsinspector: 55ad52bf7b4102102c6a2ad6e881b06d56f8eb43
   React-logger: 264ccba40e268580a95fb9d514c315d2ec7339a5
+  react-native-bignumber: d739487334a98ae97de45183078bf4d04163840f
   react-native-leveldb: 6bed1198c23994d1068c2c5c8eae90b97e5d882c
   react-native-quick-base64: e657e9197e61b60a9dec49807843052b830da254
   react-native-quick-crypto: a903ff39ac8fea78bb9d37cccc5cc0596afc9670
