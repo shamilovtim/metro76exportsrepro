@@ -8,11 +8,10 @@ const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
  */
 const config = {
   resolver: {
-    // resolverMainFields: ['react-native', 'browser'],
+    resolverMainFields: ['react-native', 'main'],
     unstable_enablePackageExports: true,
     unstable_conditionNames: ['react-native', 'require', 'import'],
   },
 };
 
 module.exports = mergeConfig(getDefaultConfig(__dirname), config);
-console.log(module.exports);
